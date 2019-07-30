@@ -1,11 +1,9 @@
 node_modules
-build
-test
+dist
 src/**.js
 .idea/*
 
 coverage
-.nyc_output
 *.log
 
 yarn.lock

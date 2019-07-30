@@ -11,7 +11,7 @@ replaceCLIArg(tsFile, jsFile);
 require('ava/profile');
 
 /**
- * get ts file path from CLI args
+ * get ts file path from CL args
  *
  * @return string path
  */

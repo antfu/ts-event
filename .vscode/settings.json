@@ -1,5 +1,25 @@
 {
-  "typescript.tsdk": "node_modules/typescript/lib"
-  // "typescript.implementationsCodeLens.enabled": true
-  // "typescript.referencesCodeLens.enabled": true
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/tmp": true,
+    "**/dist": true,
+    "**/logs": true,
+    "**/package-lock.json": true,
+    "**/lib": true,
+  },
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+
+  // Eslint
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+  ],
 }
