@@ -12,5 +12,8 @@ module.exports = {
   extends: [
     '@antfu/eslint-config-ts',
   ],
-  rules: {}
+  rules: {
+    '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/interface-name-prefix': 'off',
+  }
 }
