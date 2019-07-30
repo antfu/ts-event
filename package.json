@@ -25,7 +25,7 @@
     "doc:json": "typedoc src/ --exclude **/*.spec.ts --target ES6 --mode file --json dist/docs/typedoc.json",
     "doc:publish": "gh-pages -m \"docs: updates [ci skip]\" -d dist/docs",
     "version": "standard-version",
-    "publish": "standard-version && git push --follow-tags && npm publish",
+    "release": "standard-version && git push --follow-tags && npm publish",
     "reset": "git clean -dfx && git reset --hard && npm i",
     "clean": "rimraf dist"
   },
