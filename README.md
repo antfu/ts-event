@@ -1,4 +1,4 @@
-<h1><b>TS</b>Event</h1>
+<h1>TS-Event</h1>
 
 Typescript Event Emitter with the same [API of VS Code](https://code.visualstudio.com/api/references/vscode-api#EventEmitter%3CT%3E)
 
@@ -29,6 +29,12 @@ counter.onChanged(n => { // n is number here
 })
 
 counter.value = 5 // Output: The new value is 5
+```
+
+## Install
+
+```bash
+npm i @antfu/ts-event
 ```
 
 ## License
