@@ -1,6 +1,6 @@
 {
   "name": "tsevent",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Typescript Event Emitter",
   "main": "dist/main/index.js",
   "typings": "dist/main/index.d.ts",
@@ -8,6 +8,10 @@
   "repository": "https://github.com/antfu/tsevent",
   "license": "MIT",
   "keywords": [],
+  "files": [
+    "dist/main",
+    "dist/module"
+  ],
   "scripts": {
     "build": "run-s clean && run-p build:*",
     "build:main": "tsc -p tsconfig.json",

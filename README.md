@@ -1,6 +1,6 @@
 <h1><b>TS</b>Event</h1>
 
-Typescript Event Emitter with the same API of vscode
+Typescript Event Emitter with the same [API of VS Code](https://code.visualstudio.com/api/references/vscode-api#EventEmitter%3CT%3E)
 
 ## Basic Usage
 
